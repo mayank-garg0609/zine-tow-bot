@@ -1,0 +1,22 @@
+{
+  "name": "zine-tow-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "espress": "^0.0.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1",
+    "zine-tow-bot": "file:"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.1.4"
+  },
+  "description": ""
+}

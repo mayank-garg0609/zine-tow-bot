@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <title>zine-tow-bot</title>
+</head>
+<body>
+
+    <div id="count">
+        <h1>zine-tow-bot</h1>
+        <h4 id="disa">Team A count: "0"</h4>
+        <h4 id="disb">Team B count: "0"</h4>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                
+
+                
+                const counta = localStorage.getItem('counta');
+                const countb = localStorage.getItem('countb');
+                
+                // <button id="reset">Reset</button>
+                if (counta) {
+                    document.getElementById("disa").innerHTML = `Button A clicked ${counta} times`;
+                }
+                if (countb) {
+                    document.getElementById("disb").innerHTML = `Button B was clicked ${countb} times`;
+                }
+            });
+        </script>
+    </div>
+    <script src="count.js"></script>
+</body>
+</html>

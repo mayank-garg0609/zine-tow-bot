@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="refresh" content="1"> -->
+        <title>zine-tow-bot</title>
+        <link rel="stylesheet" href="teamb.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="blue">
+                <h1 id="teamB">Team B</h1>
+                <h2 id="countb">0</h2>
+            </div>
+            <div class="red">
+                <h1 id="teamA">Team A</h1>
+                <h2 id="counta">0</h2>
+            </div>
+            <button id="counterb"></button>
+
+            <!-- <script>
+                document.addEventListener('DOMContentLoaded',()=>{
+        
+                count = fetch('/count',{method:'GET'}).then(response => response.json())
+        .then(data => {      
+        
+            if(counta){
+            document.getElementById('counta').innerHTML = `${data.counta}`;
+            }
+            if(countb){
+            document.getElementById('countb').innerHTML = `${data.countb}`;
+            }
+        })
+        .catch(error => console.log(error));
+        })
+            </script> -->
+
+    </body>
+    <script src="countbb.js"></script>
+</html>
